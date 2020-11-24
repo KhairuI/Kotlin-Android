@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:text="0"
+       android:id="@+id/countText"
+       android:layout_gravity="center_horizontal"
+       android:textSize="25sp"
+       android:textColor="@color/black"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+   </TextView>
+
+    <LinearLayout
+       android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/plusButton"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_plus"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content">
+
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/minusButton"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_minius"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:text="Burger"
+            android:id="@+id/burger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </CheckBox>
+
+        <CheckBox
+            android:text="Pizza"
+            android:id="@+id/pizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </CheckBox>
+        <CheckBox
+            android:text="Fried Rice"
+            android:id="@+id/friedRice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </CheckBox>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:text="Order"
+        android:textAllCaps="false"
+        android:id="@+id/orderButton"
+        android:layout_marginTop="5dp"
+        android:layout_width="200dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:text="Male"
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </RadioButton>
+
+
+            <RadioButton
+                android:text="Female"
+                android:id="@+id/female"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </RadioButton>
+
+            <RadioButton
+                android:text="Other"
+                android:id="@+id/other"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </RadioButton>
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:id="@+id/submitButton"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <View
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="2dp">
+
+    </View>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:text="Custom Toast"
+        android:textAllCaps="false"
+        android:id="@+id/toast"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
