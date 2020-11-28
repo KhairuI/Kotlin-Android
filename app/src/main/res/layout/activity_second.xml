@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:text="This is Second Activity"
+        android:textSize="25sp"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <Button
+        android:layout_width="250dp"
+        android:text="Select date"
+        android:textAllCaps="false"
+        android:id="@+id/dateButton"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <TextView
+        android:text="Date: "
+        android:id="@+id/dateText"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <Button
+        android:layout_width="250dp"
+        android:text="Select Time"
+        android:textAllCaps="false"
+        android:id="@+id/timeButton"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <TextView
+        android:text="Time: "
+        android:textColor="@color/black"
+        android:id="@+id/timeText"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</LinearLayout>
