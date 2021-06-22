@@ -1,0 +1,2 @@
+rootProject.name = "Material_Design"
+include ':app'
