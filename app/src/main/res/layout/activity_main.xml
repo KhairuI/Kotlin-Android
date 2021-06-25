@@ -65,9 +65,22 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginTop="8dp"
-        android:id="@+id/activity2"
-        android:text="Second Activity"
+        android:id="@+id/date_pick"
+        android:text="Date Pick"
         app:layout_constraintTop_toBottomOf="@id/dialogue2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/time_pick"
+        android:text="Time Pick"
+        app:layout_constraintTop_toBottomOf="@id/date_pick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_width="match_parent"
