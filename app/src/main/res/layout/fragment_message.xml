@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MessageFragment">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:id="@+id/layout_top"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Message Fragment"
+           android:id="@+id/message_text"
+           android:textSize="18sp"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent">
+
+       </TextView>
+
+
+       <com.google.android.material.button.MaterialButton
+           android:id="@+id/message_btn"
+           android:layout_width="200dp"
+           android:layout_height="wrap_content"
+           app:layout_constraintEnd_toEndOf="parent"
+           android:layout_marginTop="16dp"
+           app:cornerRadius="16dp"
+           android:text="Seventh Activity"
+           android:textAllCaps="false"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@id/message_text">
+
+       </com.google.android.material.button.MaterialButton>
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

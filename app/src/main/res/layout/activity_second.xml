@@ -14,6 +14,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
+
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -93,6 +95,20 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
+            <Button
+                app:layout_constraintTop_toBottomOf="@id/textLayout"
+                android:id="@+id/btn_bottom_sheet"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="8dp"
+                android:text="Bottom Sheet"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </Button>
+
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -117,8 +133,6 @@
             android:layout_height="wrap_content">
 
         </com.google.android.material.floatingactionbutton.FloatingActionButton>
-
-
 
 
 
